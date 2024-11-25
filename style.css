@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins";
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Creepster&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Shadow&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Creepster&family=Galada&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Shadow&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Ultra&display=swap');
+.button{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #595F72;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color: #E6F14A;
+    transform: scale(1.1);
+}
+
+.objects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 450px;
+    background-color: #575D90;
+    font-family: "Poppins";
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+
+}
+
+
+.messageContainer{
+    margin-top: 10px;
+    
+    height: 80px;
+    width: 500px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #C3D350;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Galada", cursive;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+.scoreContainer{
+    
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute; /* Optional if needed to fine-tune */
+    left: 10px; /* Adjust based on how far left you want it */
+    top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #E6F14A;
+    border-radius: 5px;
+    font-family: "Galada", cursive;
+    
+    
+}
+
+.hide {
+    display: none; /* or flex, grid, etc., depending on the layout */
+}
